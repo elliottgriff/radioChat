@@ -3,19 +3,32 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F7816352637053700963554 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7816342637053700963554 /* AuthViewController.swift */; };
+		4FA20B442603DAFB00B345B6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA20B432603DAFB00B345B6 /* LoginViewController.swift */; };
+		4FA20B4E2603DB1F00B345B6 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA20B4D2603DB1F00B345B6 /* ChatViewController.swift */; };
+		4FA20B562603DB5500B345B6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA20B552603DB5500B345B6 /* SignUpViewController.swift */; };
 		4FBA7B6825CC4D3A00A250F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBA7B6725CC4D3A00A250F7 /* AppDelegate.swift */; };
 		4FBA7B6A25CC4D3A00A250F7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBA7B6925CC4D3A00A250F7 /* SceneDelegate.swift */; };
-		4FBA7B6C25CC4D3A00A250F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBA7B6B25CC4D3A00A250F7 /* ViewController.swift */; };
+		4FBA7B6C25CC4D3A00A250F7 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBA7B6B25CC4D3A00A250F7 /* WelcomeViewController.swift */; };
 		4FBA7B6F25CC4D3A00A250F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FBA7B6D25CC4D3A00A250F7 /* Main.storyboard */; };
 		4FBA7B7225CC4D3A00A250F7 /* radioChat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4FBA7B7025CC4D3A00A250F7 /* radioChat.xcdatamodeld */; };
 		4FBA7B7425CC4D3B00A250F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FBA7B7325CC4D3B00A250F7 /* Assets.xcassets */; };
 		4FBA7B7725CC4D3B00A250F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FBA7B7525CC4D3B00A250F7 /* LaunchScreen.storyboard */; };
 		4FBA7B8225CC4D3B00A250F7 /* radioChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBA7B8125CC4D3B00A250F7 /* radioChatTests.swift */; };
 		4FBA7B8D25CC4D3C00A250F7 /* radioChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBA7B8C25CC4D3C00A250F7 /* radioChatUITests.swift */; };
+		4FCCA1AA26065FBC00C7BADC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4FCCA1A926065FBC00C7BADC /* GoogleService-Info.plist */; };
+		4FE9DD7A2603A3CB008C816B /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE9DD792603A3CB008C816B /* Message.swift */; };
+		4FE9DD842603A53F008C816B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE9DD832603A53F008C816B /* Constants.swift */; };
+		4FE9DD8D2603A630008C816B /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE9DD8B2603A630008C816B /* MessageCell.swift */; };
+		4FE9DD8E2603A630008C816B /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FE9DD8C2603A630008C816B /* MessageCell.xib */; };
+		4FE9FCC62618B12F00A090E3 /* OtherUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FE9FCC42618B12F00A090E3 /* OtherUserCell.swift */; };
+		4FE9FCC72618B12F00A090E3 /* OtherUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FE9FCC52618B12F00A090E3 /* OtherUserCell.xib */; };
+		4FF543E4261CD84200AEBE1D /* GroupSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF543E3261CD84200AEBE1D /* GroupSelectViewController.swift */; };
+		CF504505F053055FED3CEA88 /* Pods_radioChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2A88373C52F015C288EB508 /* Pods_radioChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +49,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F7816342637053700963554 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
+		4FA20B432603DAFB00B345B6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		4FA20B4D2603DB1F00B345B6 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		4FA20B552603DB5500B345B6 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		4FBA7B6425CC4D3A00A250F7 /* radioChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = radioChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FBA7B6725CC4D3A00A250F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4FBA7B6925CC4D3A00A250F7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4FBA7B6B25CC4D3A00A250F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4FBA7B6B25CC4D3A00A250F7 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		4FBA7B6E25CC4D3A00A250F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4FBA7B7125CC4D3A00A250F7 /* radioChat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = radioChat.xcdatamodel; sourceTree = "<group>"; };
 		4FBA7B7325CC4D3B00A250F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +68,17 @@
 		4FBA7B8825CC4D3C00A250F7 /* radioChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = radioChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FBA7B8C25CC4D3C00A250F7 /* radioChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = radioChatUITests.swift; sourceTree = "<group>"; };
 		4FBA7B8E25CC4D3C00A250F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FCCA1A926065FBC00C7BADC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4FE9DD792603A3CB008C816B /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		4FE9DD832603A53F008C816B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		4FE9DD8B2603A630008C816B /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
+		4FE9DD8C2603A630008C816B /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		4FE9FCC42618B12F00A090E3 /* OtherUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherUserCell.swift; sourceTree = "<group>"; };
+		4FE9FCC52618B12F00A090E3 /* OtherUserCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OtherUserCell.xib; sourceTree = "<group>"; };
+		4FF543E3261CD84200AEBE1D /* GroupSelectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupSelectViewController.swift; sourceTree = "<group>"; };
+		5BFE879A81081662DF458A72 /* Pods-radioChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-radioChat.debug.xcconfig"; path = "Target Support Files/Pods-radioChat/Pods-radioChat.debug.xcconfig"; sourceTree = "<group>"; };
+		83FD3AAAD81049FD56CA630C /* Pods-radioChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-radioChat.release.xcconfig"; path = "Target Support Files/Pods-radioChat/Pods-radioChat.release.xcconfig"; sourceTree = "<group>"; };
+		F2A88373C52F015C288EB508 /* Pods_radioChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_radioChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF504505F053055FED3CEA88 /* Pods_radioChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +107,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F8885F3DEEC073ABD3FE399 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BFE879A81081662DF458A72 /* Pods-radioChat.debug.xcconfig */,
+				83FD3AAAD81049FD56CA630C /* Pods-radioChat.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		4FBA7B5B25CC4D3A00A250F7 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +123,8 @@
 				4FBA7B8025CC4D3B00A250F7 /* radioChatTests */,
 				4FBA7B8B25CC4D3C00A250F7 /* radioChatUITests */,
 				4FBA7B6525CC4D3A00A250F7 /* Products */,
+				1F8885F3DEEC073ABD3FE399 /* Pods */,
+				D8AFBB6F55C275E47B4D5360 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,12 +143,15 @@
 			children = (
 				4FBA7B6725CC4D3A00A250F7 /* AppDelegate.swift */,
 				4FBA7B6925CC4D3A00A250F7 /* SceneDelegate.swift */,
-				4FBA7B6B25CC4D3A00A250F7 /* ViewController.swift */,
-				4FBA7B6D25CC4D3A00A250F7 /* Main.storyboard */,
+				4FE9DD722603A3AC008C816B /* models */,
+				4FE9DD812603A4F0008C816B /* views */,
+				4FE9DD822603A51F008C816B /* controllers */,
+				4FE9DD832603A53F008C816B /* Constants.swift */,
 				4FBA7B7325CC4D3B00A250F7 /* Assets.xcassets */,
 				4FBA7B7525CC4D3B00A250F7 /* LaunchScreen.storyboard */,
 				4FBA7B7825CC4D3B00A250F7 /* Info.plist */,
 				4FBA7B7025CC4D3A00A250F7 /* radioChat.xcdatamodeld */,
+				4FCCA1A926065FBC00C7BADC /* GoogleService-Info.plist */,
 			);
 			path = radioChat;
 			sourceTree = "<group>";
@@ -131,6 +174,47 @@
 			path = radioChatUITests;
 			sourceTree = "<group>";
 		};
+		4FE9DD722603A3AC008C816B /* models */ = {
+			isa = PBXGroup;
+			children = (
+				4FE9DD792603A3CB008C816B /* Message.swift */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		4FE9DD812603A4F0008C816B /* views */ = {
+			isa = PBXGroup;
+			children = (
+				4FBA7B6D25CC4D3A00A250F7 /* Main.storyboard */,
+				4FE9DD8C2603A630008C816B /* MessageCell.xib */,
+				4FE9DD8B2603A630008C816B /* MessageCell.swift */,
+				4FE9FCC52618B12F00A090E3 /* OtherUserCell.xib */,
+				4FE9FCC42618B12F00A090E3 /* OtherUserCell.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		4FE9DD822603A51F008C816B /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4FBA7B6B25CC4D3A00A250F7 /* WelcomeViewController.swift */,
+				4FA20B552603DB5500B345B6 /* SignUpViewController.swift */,
+				4FA20B432603DAFB00B345B6 /* LoginViewController.swift */,
+				4FA20B4D2603DB1F00B345B6 /* ChatViewController.swift */,
+				4FF543E3261CD84200AEBE1D /* GroupSelectViewController.swift */,
+				4F7816342637053700963554 /* AuthViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		D8AFBB6F55C275E47B4D5360 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F2A88373C52F015C288EB508 /* Pods_radioChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -138,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4FBA7B9125CC4D3C00A250F7 /* Build configuration list for PBXNativeTarget "radioChat" */;
 			buildPhases = (
+				F8ED915E251BD717D799B4F0 /* [CP] Check Pods Manifest.lock */,
 				4FBA7B6025CC4D3A00A250F7 /* Sources */,
 				4FBA7B6125CC4D3A00A250F7 /* Frameworks */,
 				4FBA7B6225CC4D3A00A250F7 /* Resources */,
+				1BA5D6CA8C8962E43E309D3B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,9 +320,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FE9DD8E2603A630008C816B /* MessageCell.xib in Resources */,
 				4FBA7B7725CC4D3B00A250F7 /* LaunchScreen.storyboard in Resources */,
+				4FCCA1AA26065FBC00C7BADC /* GoogleService-Info.plist in Resources */,
 				4FBA7B7425CC4D3B00A250F7 /* Assets.xcassets in Resources */,
 				4FBA7B6F25CC4D3A00A250F7 /* Main.storyboard in Resources */,
+				4FE9FCC72618B12F00A090E3 /* OtherUserCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,15 +345,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1BA5D6CA8C8962E43E309D3B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-radioChat/Pods-radioChat-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-radioChat/Pods-radioChat-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-radioChat/Pods-radioChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8ED915E251BD717D799B4F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-radioChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4FBA7B6025CC4D3A00A250F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FBA7B6C25CC4D3A00A250F7 /* ViewController.swift in Sources */,
+				4FBA7B6C25CC4D3A00A250F7 /* WelcomeViewController.swift in Sources */,
 				4FBA7B7225CC4D3A00A250F7 /* radioChat.xcdatamodeld in Sources */,
+				4FE9DD7A2603A3CB008C816B /* Message.swift in Sources */,
 				4FBA7B6825CC4D3A00A250F7 /* AppDelegate.swift in Sources */,
+				4FA20B562603DB5500B345B6 /* SignUpViewController.swift in Sources */,
+				4FA20B442603DAFB00B345B6 /* LoginViewController.swift in Sources */,
+				4FF543E4261CD84200AEBE1D /* GroupSelectViewController.swift in Sources */,
+				4FE9FCC62618B12F00A090E3 /* OtherUserCell.swift in Sources */,
+				4F7816352637053700963554 /* AuthViewController.swift in Sources */,
 				4FBA7B6A25CC4D3A00A250F7 /* SceneDelegate.swift in Sources */,
+				4FE9DD842603A53F008C816B /* Constants.swift in Sources */,
+				4FA20B4E2603DB1F00B345B6 /* ChatViewController.swift in Sources */,
+				4FE9DD8D2603A630008C816B /* MessageCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,16 +577,20 @@
 		};
 		4FBA7B9225CC4D3C00A250F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BFE879A81081662DF458A72 /* Pods-radioChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MR77GZV3WJ;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = radioChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ecgriffin.radioChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -456,6 +600,7 @@
 		};
 		4FBA7B9325CC4D3C00A250F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83FD3AAAD81049FD56CA630C /* Pods-radioChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -466,6 +611,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ecgriffin.radioChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
