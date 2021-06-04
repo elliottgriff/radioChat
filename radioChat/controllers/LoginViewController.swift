@@ -7,6 +7,7 @@
 
 import UIKit
 import Firebase
+import KeychainAccess
 
 class LoginViewController: UIViewController {
     
@@ -23,6 +24,11 @@ class LoginViewController: UIViewController {
                     alert.addAction(UIAlertAction(title: "OK", style: .cancel, handler: nil))
                     self.present(alert, animated: true, completion: nil)
                 } else {
+                    
+                    let keychain = Keychain(service: "com.ecgriffin.radioChat")
+                    keychain["email"] = email
+                    keychain["password"] = password
+                    
                     self.performSegue(withIdentifier: K.loginSegue, sender: self)
                 }
             }
@@ -33,6 +39,11 @@ class LoginViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let keychain = Keychain(service: "com.ecgriffin.radioChat")
+        self.emailText.text = keychain["email"]
+        self.passwordText.text = keychain["password"]
+        
     }
     
 }

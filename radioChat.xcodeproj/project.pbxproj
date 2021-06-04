@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F229E242666B242007A8DB7 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F229E232666B242007A8DB7 /* AuthManager.swift */; };
 		4F7816352637053700963554 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7816342637053700963554 /* AuthViewController.swift */; };
 		4FA20B442603DAFB00B345B6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA20B432603DAFB00B345B6 /* LoginViewController.swift */; };
 		4FA20B4E2603DB1F00B345B6 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA20B4D2603DB1F00B345B6 /* ChatViewController.swift */; };
@@ -49,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4F229E232666B242007A8DB7 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		4F7816342637053700963554 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		4FA20B432603DAFB00B345B6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4FA20B4D2603DB1F00B345B6 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
@@ -116,6 +118,14 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		4F229E222666B222007A8DB7 /* managers */ = {
+			isa = PBXGroup;
+			children = (
+				4F229E232666B242007A8DB7 /* AuthManager.swift */,
+			);
+			path = managers;
+			sourceTree = "<group>";
+		};
 		4FBA7B5B25CC4D3A00A250F7 = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +153,7 @@
 			children = (
 				4FBA7B6725CC4D3A00A250F7 /* AppDelegate.swift */,
 				4FBA7B6925CC4D3A00A250F7 /* SceneDelegate.swift */,
+				4F229E222666B222007A8DB7 /* managers */,
 				4FE9DD722603A3AC008C816B /* models */,
 				4FE9DD812603A4F0008C816B /* views */,
 				4FE9DD822603A51F008C816B /* controllers */,
@@ -393,6 +404,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FBA7B6C25CC4D3A00A250F7 /* WelcomeViewController.swift in Sources */,
+				4F229E242666B242007A8DB7 /* AuthManager.swift in Sources */,
 				4FBA7B7225CC4D3A00A250F7 /* radioChat.xcdatamodeld in Sources */,
 				4FE9DD7A2603A3CB008C816B /* Message.swift in Sources */,
 				4FBA7B6825CC4D3A00A250F7 /* AppDelegate.swift in Sources */,

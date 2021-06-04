@@ -6,15 +6,26 @@
 //
 
 import UIKit
-import CLTypingLabel
+import KeychainAccess
 
 class WelcomeViewController: UIViewController {
 
-    @IBOutlet weak var titleLabel: CLTypingLabel!
+    let groupVC = GroupSelectViewController()
+    
+    @IBOutlet weak var titleLabel: UILabel!
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         navigationController?.isNavigationBarHidden = true
+        
+        let keychain = Keychain(service: "com.ecgriffin.radioChat")
+        let email = try? keychain.get("email")
+        let password = try? keychain.get("password")
+        
+        if (email != nil) && (password != nil) {
+            self.performSegue(withIdentifier: K.welcomeSegue, sender: self)
+        }
+        
     }
     
     override func viewWillDisappear(_ animated: Bool) {

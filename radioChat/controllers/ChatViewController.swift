@@ -14,6 +14,7 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
     @IBOutlet weak var chatSendingText: UITextView!
     
     let db = Firestore.firestore()
+    let groupSelectVC = GroupSelectViewController()
     
     var messages: [Message] = []
     
@@ -32,8 +33,6 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
         loadMessages()
         
     }
-    
-    
     
     func loadMessages() {
         db.collection(K.Fstore.roomName)
@@ -90,7 +89,7 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
         
         do {
             try Auth.auth().signOut()
-            navigationController?.popToRootViewController(animated: true)
+            navigationController?.popViewController(animated: true)
         } catch let e as NSError {
             print("error signing out \(e)")
             let alert = UIAlertController(title: "Error", message: e.localizedDescription, preferredStyle: .actionSheet)

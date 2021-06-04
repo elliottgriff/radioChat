@@ -16,6 +16,7 @@ struct K {
     static let signupSegue = "SignUpToGroup"
     static let loginSegue = "LoginToGroup"
     static let groupSegue = "GroupToRoom"
+    static let welcomeSegue = "WelcomeToRoom"
     
     struct Fstore {
         static var roomName = ""
