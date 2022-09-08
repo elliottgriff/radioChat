@@ -7,6 +7,7 @@
 
 import Foundation
 import Firebase
+import KeychainAccess
 
 class GroupSelectViewController: UIViewController {
     
@@ -18,7 +19,25 @@ class GroupSelectViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+
+        
+        
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        let keychain = Keychain(service: "com.ecgriffin.radioChat")
+        let room = try? keychain.get("roomName")
+        
+        roomName.text = room
+        
+        
+        if (room != nil) {
+            K.Fstore.roomName = room!
+            self.performSegue(withIdentifier: K.groupSegue, sender: self)
+        }
+    }
+    
     
     
     @IBAction func enterRoomPressed(_ sender: UIButton) {
@@ -41,6 +60,10 @@ class GroupSelectViewController: UIViewController {
                         
                         if docsCount > 0 {
                             K.Fstore.roomName = room
+                            
+                            let keychain = Keychain(service: "com.ecgriffin.radioChat")
+                            keychain["roomName"] = room
+                            
                             self.performSegue(withIdentifier: K.groupSegue, sender: self)
                         } else {
                             let alert = UIAlertController(title: "", message: "room does not exist", preferredStyle: .actionSheet)

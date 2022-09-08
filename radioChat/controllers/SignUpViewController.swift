@@ -17,11 +17,11 @@ class SignUpViewController: UIViewController {
         
         if let email = emailText.text, let password = passwordText.text {
             Auth.auth().createUser(withEmail: email, password: password) { (authResult, error) in
-                if let e = error {
-                    print("this is the error \(e)")
-                    let alert = UIAlertController(title: "Error", message: e.localizedDescription, preferredStyle: .actionSheet)
-                    alert.addAction((UIAlertAction(title: "OK", style: .default, handler: nil)))
-                    self.present(alert, animated: true, completion: nil)
+                           if let e = error {
+                               print("this is the error \(e)")
+                               let alert = UIAlertController(title: "Error", message: e.localizedDescription, preferredStyle: .actionSheet)
+                               alert.addAction((UIAlertAction(title: "OK", style: .default, handler: nil)))
+                               self.present(alert, animated: true, completion: nil)
                 } else {
                     self.performSegue(withIdentifier: K.signupSegue, sender: self)
                 }

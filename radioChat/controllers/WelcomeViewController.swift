@@ -25,7 +25,6 @@ class WelcomeViewController: UIViewController {
         if (email != nil) && (password != nil) {
             self.performSegue(withIdentifier: K.welcomeSegue, sender: self)
         }
-        
     }
     
     override func viewWillDisappear(_ animated: Bool) {
